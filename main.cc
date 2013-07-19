@@ -5,11 +5,9 @@ using namespace std;
 
 int main(void){
 
+  A a(10, 2);
 
-A a(10, 2);
+	cout << a << endl;
 
-cout << a << endl;
-
-
-  return 0;
+	return 0;
 }
